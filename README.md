@@ -1,2 +1,0 @@
-# Alang.github.io
-PrVideoCut
