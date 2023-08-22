@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<!-- saved from url=(0069)http://127.0.0.1:8848/%E5%BF%AB%E6%8D%B7%E5%AF%BC%E8%88%AA/index.html -->
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<title>快捷工具之家</title>
+		<link rel="shortcut icon" href="./快捷工具之家_files/Search.png" type="image/x-icon">
+		
+	</head>
+	<body>
+		<div id="header">
+				<img src="./快捷工具之家_files/Search.png" width="30px" height="30px">
+				<h1>快捷导航工具</h1>
+				
+				<form action="http://127.0.0.1:8848/demo/demo_form.asp">
+					<h3>国家语言</h3>
+				<select name="cars">
+				<option value="volvo">简体中文</option>
+				<option value="saab">English</option>
+				<option value="fiat">日本語です</option>
+				<option value="audi">japonais（法）</option>
+				</select>
+				<br><br>
+				<input type="submit">
+				</form><br>
+			
+				
+				<button type="button" onclick="document.getElementById(&#39;demo&#39;).innerHTML=Date()">
+					点击显示当前时间
+				</button>
+			
+		</div>
+		
+		<div id="nav">
+			视频工具<br>
+			图像工具<br>
+			文字工具<br>
+			AI工具<br>
+				<li>Ai绘画</li>
+				<li>Ai换脸</li>
+				<li>Ai对话</li>
+				<li>AiCode</li>
+				<li>AiVision</li>
+			商品素材<br>
+				<li>普货</li>
+				<li>擦边</li>
+				<li>仿牌</li>
+				<li>黑五</li>
+			视频素材<br>
+			图片素材<br>
+			音频素材<br>
+			专业剪辑<br>
+				<li>带货视频</li>
+				<li>自定义</li>
+			平面设计<br>
+				<li>商品卡牌</li>
+				<li>商业LOGO定制</li>
+			3D建模<br>
+			直播运营<br>
+			主播招募<br>
+			
+		</div>
+		
+		<div id="section">
+			<h1>快捷导航工具简介</h1>
+			<p>
+				快捷导航工具是跨境电商人的便捷导航工具，
+				可以快速查找快捷工具，网络节点，关键词，时区等等。
+				
+			</p>
+			<p>
+				主要业务是：计算器，发布时间，电商分享大会等等。
+				代工厂加工，独立站定制，跨境电商培训，直播带货。
+			</p>
+			
+		</div>
+		
+		<div id="right-section">
+			<p id="demo">Hello JavaScript!</p><p><img src="./快捷工具之家_files/WechatCode.jpg"></p>
+			<button id="btn" onclick="getLocation()">点击获得您的IP：</button>
+			
+			<script>
+			var x=document.getElementById("demo");
+			function getLocation()
+			  {
+			  if (navigator.geolocation)
+			    {
+			    navigator.geolocation.getCurrentPosition(showPosition,showError);
+			    }
+			  else{x.innerHTML="Geolocation is not supported by this browser.";}
+			  }
+			function showPosition(position)
+			  {
+			  x.innerHTML="Latitude: " + position.coords.latitude + 
+			  "<br />Longitude: " + position.coords.longitude;	
+			  }
+			function showError(error)
+			  {
+			  switch(error.code) 
+			    {
+			    case error.PERMISSION_DENIED:
+			      x.innerHTML="User denied the request for Geolocation."
+			      break;
+			    case error.POSITION_UNAVAILABLE:
+			      x.innerHTML="Location information is unavailable."
+			      break;
+			    case error.TIMEOUT:
+			      x.innerHTML="The request to get user location timed out."
+			      break;
+			    case error.UNKNOWN_ERROR:
+			      x.innerHTML="An unknown error occurred."
+			      break;
+			    }
+			  }
+			</script>
+			
+			
+		</div>
+		
+		<div id="section2">
+			<table border="1">
+				<caption>工具的列表</caption>
+				<tbody><tr>
+					<td>
+						<p><a href="http://www.aies.cn/">
+						<img src="./快捷工具之家_files/Fan.jpg" width="100" height="100"><br>
+						</a></p><p><a href="http://www.aies.cn/">繁体字翻译</a></p><a href="http://www.aies.cn/">
+					</a></td>
+					
+					<td>
+						<p><a href="https://fanyi.youdao.com/index.html#/">
+						<img border="0" src="./快捷工具之家_files/Translate.jpg" width="100px" height="100px"><br>
+						</a></p><p><a href="https://fanyi.youdao.com/index.html#/">有道词典</a></p><a href="https://fanyi.youdao.com/index.html#/">
+					</a></td>
+					<td>
+						<p><a href="https://www.xe.com/zh-CN/currencyconverter/">
+						<img src="./快捷工具之家_files/moneyTranslate.jpg" width="100px" height="100px">
+						</a></p><p><a href="https://www.xe.com/zh-CN/currencyconverter/">实时汇率换算</a></p><a href="https://www.xe.com/zh-CN/currencyconverter/">
+						<p></p>
+					</a></td>
+					<td>
+						<p><a href="https://sockboom.love/auth/login">
+						<img src="./快捷工具之家_files/showdersocks.jpg" width="100px" height="100px">
+						</a></p><p><a href="https://sockboom.love/auth/login">URL节点商城</a></p>
+						<p></p>
+					</td>
+					<td>
+						<p><a href="https://swapface.org/#/home">
+						<img src="./快捷工具之家_files/SwapFace.jpg" width="100px" height="100px">
+						</a></p><p><a href="https://swapface.org/#/home">Ai换脸</a></p>
+						<p></p>
+					</td>
+					
+					<td>
+						<p><a href="https://time.is/zh/">
+						<img src="./快捷工具之家_files/WorldTIme.jpg" width="100px" height="100px">
+						</a></p><p><a href="https://time.is/zh/">世界时间</a></p><a href="https://time.is/zh/">
+						</a>
+						<p></p>
+					</td>
+				</tr>
+			</tbody></table>
+			
+			
+			
+			
+			
+			<p></p>
+			
+			
+		</div>
+		
+		
+		
+		<div id="footer">
+			<font size="10px" color="red">SuperLeader.com</font>
+			
+			<p>Attach Us | 联系我们：Gmail：lwq1214899490@gmail.com   WhatApp:+123456789</p>
+			<p>欢迎咨询我们  Welcome to consult us！</p>
+			
+		</div>
+		
+	
+	<p id="demo1"></p>
+	
+	<script>
+	document.getElementById("demo").innerHTML = "Hello JavaScript!";
+	</script>
+	
+	<noscript>抱歉，您的浏览器不支持 JavaScript！</noscript>
+	
+	<p>不支持 JavaScript 的浏览器将显示 noscript 元素内的文本。</p>
+		
+		
+	
+		
+	<script>document.write('<script src="//' + (location.host || 'localhost').split(':')[0] + ':35929/livereload.js?snipver=1"></' + 'script>')</script><script src="./快捷工具之家_files/livereload.js.下载"></script><script>document.addEventListener('LiveReloadDisconnect', function() { setTimeout(function() { window.location.reload(); }, 500); })</script>
+	
+	<style>
+	#header{
+		background-color: black;
+		color: white;
+		text-align: center;
+		padding: 5px;
+	}
+	#nav{
+		line-height: 30px;
+		background-color: azure;
+		float: left;
+		height: 1000px;
+		width: 100px;
+		padding: 5px;
+			}
+	#section{
+		background-color: ghostwhite;
+		height: 160px;
+		width:800px ;
+		color: gray;
+		float: left;
+		padding: 10px;
+	}
+	#section2{
+		background-color: aliceblue;
+		height: 820px;
+		width:810px;
+		color:black;
+		float:left;
+		padding: 5px;
+		font-size: 20px;
+	}
+	#right-section{
+		background-color:gainsboro;
+		height: 1000px;
+		width: 254px;
+		color:yellow;
+		float:right;
+		padding: 5px;
+		font-size: 15px;
+	}
+	#btn{
+		background-color: blueviolet;
+		color: blue;
+		width: 100px;
+		height: 40px;
+	}
+	#footer{
+		background-color: black;
+		color: white;
+		clear: both;
+		height: 130px;
+		text-align: center;
+		padding: 20px;
+	}
+	
+	
+	</style>
+	
+
+</body></html>
